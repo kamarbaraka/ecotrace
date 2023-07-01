@@ -1,0 +1,31 @@
+.nav.nav-tabs .nav-item #login {
+
+
+}
+.nav.nav-tabs #loginnavitem {
+    margin-right: 5%;
+    margin-left: 44%;
+
+
+}
+#navbarSupportedContent1 .form-inline.my-2.my-lg-0 #loginButton {
+    padding-left: 5px;
+    margin-left: 5px;
+}
+.navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light #navbarSupportedContent1 #navbartabs {
+    margin-left: 60%;
+}
+.navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light #navbarSupportedContent1 #formbuttons {
+
+}
+.navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light .navbar-brand #icon {
+    height: 60px;
+    width: 160px;
+}
+#bodyDiv {
+    margin-top: 1%;
+    background-color: rgba(104,114,236,1.00);
+}
+#footer #footerContainer {
+    background-color: rgba(138,134,134,1.00);
+}

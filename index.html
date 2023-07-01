@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Main</title>
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+<link href="css/index.css" rel="stylesheet" type="text/css">
+<script src="js/Index.js" async="async"></script>
+<script src="js/HomeDiv.js" async="async"></script>
+</head>
+
+<body style="padding-top: 70px">
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="#"><img src="images/ecotrace_icon.png" alt="" width="4248" height="1671" id="icon"/></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+        <ul class="navbar-nav mr-auto" id="navbartabs">
+          <li class="nav-item active"> <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> </li>
+          <li class="nav-item active"> <a class="nav-link" href="#">Solution <span class="sr-only">(current)</span></a></li>
+          <li class="nav-item active"> <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a></li>
+          <li class="nav-item active"> <a class="nav-link" href="#">News <span class="sr-only">(current)</span></a></li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0" id="formbuttons">
+            <button type="submit" class="btn btn-outline-success my-2 my-sm-0" id="bookacallbutton">book a call</button>
+          <button type="submit" class="btn btn-outline-success my-2 my-sm-0" id="loginButton" onclick="controller()">login</button>
+        </form>
+  </div>
+</nav>
+
+<div class="container-fluid" id="bodyDiv">
+</div>
+
+<br>
+
+<footer id="footer">
+  <div class="container-fluid" id="footerContainer">
+    <div class="row">
+      <div class="col-sm-6">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+            <small id="emailHelp1" class="form-text text-muted">We'll never share your email with anyone else.</small> </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <div class="col-sm-6">
+        <div>Content for New Div Tag Goes Here</div>
+        <div>Content for New Div Tag Goes Here</div>
+        <div>Content for New Div Tag Goes Here</div>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+
+</html>
